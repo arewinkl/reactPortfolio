@@ -1,38 +1,225 @@
-.App {
+.header-color {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.category-tabs {
+  background: linear-gradient(to bottom, #004e92, #000428);
+}
+
+.landing-grid {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.avatar-img {
+  height: 275px;
+  padding-top: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-text {
+  background-color: #000428;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner-text h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr {
+  border-top: 6px dashed gainsboro;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-text p {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 1rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  font-size: 5rem;
+  color: grey;
+  padding: 10px;
+}
+
+.about-text {
+  background-color: #000428;
+  opacity: 0.8;
+  width: 99%;
+}
+.about-text h1 {
+  font-size: 100px;
+  text-align: center;
+  padding-top: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+.about-text p {
+  color: white;
+  font-size: 24px;
+
+  text-align: left;
+  padding: 30px;
+}
+
+.apps h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  align-items: baseline;
+  color: black;
+
+  max-width: none;
+}
+
+.about-grid {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+
+.contact-link i {
+  font-size: 5rem;
+  color: white;
+  padding: 10px;
+}
+
+.contact-link button {
+  background: linear-gradient(to top, #004e92, #000428);
+}
+.contact-link a {
+  font-size: 30px;
+  color: white;
+}
+
+.item-contacts i {
+  color: white;
+  padding: 1rem;
+}
+.item-contacts {
+  padding-top: 8rem;
+}
+
+.headline-text {
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 3rem;
+  font-family: Copperplate;
+}
+
+.headline-text h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.headline-text p {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 1rem;
+}
+
+.avatar-two {
+  height: 250px;
+}
+.bottom-text {
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  font-family: Copperplate;
+  color: white;
+}
+.bottom-text p {
+  font-size: 20px;
+}
+
+.alec-photo img {
+  height: 610px;
+  width: 520px;
+  background-color: #004e92;
+
+  border-radius: 12px;
+  box-shadow: 16px 6px 16px lightslategray;
+}
+.alec-text p {
+  color: white;
+  background-color: #004e92;
+  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-bottom: 30px;
+  padding-top: 2rem;
+  font-size: 22px;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resume-photo {
+  height: 1150px;
+  width: 1100px;
 }
