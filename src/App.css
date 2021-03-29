@@ -2,30 +2,30 @@
   background: #000428; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
-    #004e92,
-    #000428
+    #858480d5,
+    #070808
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
-    #004e92,
-    #000428
+    #858480d5,
+    #070808
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .category-tabs {
-  background: linear-gradient(to bottom, #004e92, #000428);
+  background: linear-gradient(to top, #858480d5, #353636);
 }
 
 .landing-grid {
   background: #000428; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to top,
-    #004e92,
-    #000428
+    to bottom,
+    #858480d5,
+    #080808
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to top,
-    #004e92,
-    #000428
+    to bottom,
+    #63636ed5,
+    #353636
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: fixed;
   top: 0;
@@ -37,11 +37,11 @@
 
 .avatar-img {
   height: 275px;
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 .banner-text {
-  background-color: #000428;
+  background-color: #161616;
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -111,27 +111,6 @@
   max-width: none;
 }
 
-.about-grid {
-  background: #000428; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #004e92,
-    #000428
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #004e92,
-    #000428
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  opacity: 0.9;
-}
-
 .contact-link {
   display: flex;
   justify-content: space-between;
@@ -198,25 +177,26 @@
 .bottom-text p {
   font-size: 20px;
 }
-
-.alec-photo img {
+.alec-tabs {
+  background: linear-gradient(to top, #858480d5, #353636);
+}
+.alec-tabs img {
   height: 610px;
   width: 520px;
-  background-color: #004e92;
-
   border-radius: 12px;
-  box-shadow: 16px 6px 16px lightslategray;
+  box-shadow: 16px 6px 16px rgb(169, 177, 185);
 }
-.alec-text p {
-  color: white;
-  background-color: #004e92;
+.alec-tabs p {
+  color: lightgray;
+
   padding-right: 4rem;
   padding-left: 2rem;
   padding-bottom: 30px;
   padding-top: 2rem;
   font-size: 22px;
   text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
 }
 
 .resume-photo {
