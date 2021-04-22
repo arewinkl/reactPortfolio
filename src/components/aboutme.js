@@ -16,7 +16,7 @@ class AboutMe extends Component {
                          </Cell>
                          <Cell col={12} >
                                 <div>
-                                    <h1 style={{textAlign:' center', fontSize:'105px', fontFamily:'copperplate', textShadow:'6px 6px #d7dde8'}}>
+                                    <h1 style={{textAlign:' center', fontSize:'105px', fontFamily:'copperplate', textShadow:'6px 6px #a8a7a7'}}>
                                         Personal & Professional Background</h1>
                                 </div>
                          </Cell>
