@@ -97,7 +97,6 @@
 .about-text p {
   color: white;
   font-size: 24px;
-
   text-align: left;
   padding: 30px;
 }
@@ -177,26 +176,34 @@
 .bottom-text p {
   font-size: 20px;
 }
+
+.apps {
+  background: linear-gradient(to bottom, #353636, #d7dde8);
+}
+.app-tabs {
+  background: linear-gradient(to bottom, #353636, #d7dde8);
+}
 .alec-tabs {
-  background: linear-gradient(to top, #858480d5, #353636);
+  background: linear-gradient(to bottom, #353636, #d7dde8);
 }
 .alec-tabs img {
   height: 610px;
   width: 520px;
-  border-radius: 12px;
-  box-shadow: 16px 6px 16px rgb(169, 177, 185);
+  border-radius: 50%;
+  border: 10px solid #333;
 }
 .alec-tabs p {
-  color: lightgray;
+  color: black;
 
   padding-right: 4rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
   padding-bottom: 30px;
   padding-top: 2rem;
-  font-size: 22px;
+  font-size: 28px;
   text-align: justify;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: lighter;
+  line-height: 1.18;
+  font-family: optima;
+  font-weight: normal;
 }
 
 .resume-photo {

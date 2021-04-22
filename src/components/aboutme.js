@@ -1,23 +1,26 @@
 import React, {Component} from 'react';
-import { Card, CardMedia, CardText, CardTitle,  } from 'react-mdl';
+import { CardMedia, Cell, Grid,  } from 'react-mdl';
 import alec from '../assets/images/Alec-Climbing.png.JPG'
 
 class AboutMe extends Component {
     render(){
         return(
             <div className="alec-tabs">
-                
-                    <Card shadow={100} style={{width: '100%', height: '100%', textAlign: 'center', margin: 'auto', backgroundColor: ' #353636'}}>
-                            <CardTitle col={12}>
-                                
-                            </CardTitle> 
-                                <CardMedia shadow={100} style={{width: '100%', height: '100%', textAlign: 'center', margin: 'auto', backgroundColor: ' #353636'}}>
+                <Grid>
+                        <Cell col={12}>
+                                <CardMedia style={{width: '100%', height: '100%', textAlign: 'center', margin: 'auto', backgroundColor:'transparent'}}>
                                     <div >
                                         <img src={alec} alt="alec"/>
                                         </div>
                                 </CardMedia>
-                            
-                            <CardText col={8} style={{width: '100%', height: '100%', textAlign: 'center', margin: 'auto',}}>
+                         </Cell>
+                         <Cell col={12} >
+                                <div>
+                                    <h1 style={{textAlign:' center', fontSize:'105px', fontFamily:'copperplate', textShadow:'6px 6px #d7dde8'}}>
+                                        Personal & Professional Background</h1>
+                                </div>
+                         </Cell>
+                            <Cell col={12} style={{width: '100%', height: '100%', margin: 'auto'}}>
                                 <div >
                                     <p>
                                     &emsp; &emsp; My name is Alec Rewinkel, and I currently live in Denver, Colorado the same place where I was born and raised. I can't imagine growing up anywhere else. Colorado has so many amazing things to offer, especially if you are an outdoor enthusiast! when im not busy working, I love to get outside and enjoy all of the    amazing beauty that this wonderful state has to offer.
@@ -35,10 +38,10 @@ class AboutMe extends Component {
                                         
                                     </p>
                                 </div>
-                            </CardText>
+                            </Cell>
                         
-                        </Card> 
-                
+                       
+                     </Grid>
             </div>
         );
     }

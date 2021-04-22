@@ -141,7 +141,7 @@ class Projects extends Component {
     }
     render(){
         return(
-            <div className="category-tabs">
+            <div className="app-tabs">
            <Tabs  activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                <Tab style={{color: 'white', fontWeight: 'bolder'}}>React</Tab>
                <Tab style={{color: 'white', fontWeight: 'bolder'}}>MongoDB/ MySQL</Tab>
