@@ -22,7 +22,7 @@ class Projects extends Component {
                             <Button href="https://arewinkl.github.io/employee-Directory/" target="_blank" colored>GitHub Pages</Button>
                         </CardActions>
                     </Card>,
-                    <Card shadow={100} style={{width: '475px', height: '530px', textAlign: 'center', font:'40px', margin: 'auto'}}>
+                    <Card shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', font:'40px', margin: 'auto'}}>
                         <CardTitle  expand style={{color: 'white', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3' }}>
                             Conference Planner</CardTitle>
                         <CardText >
@@ -33,7 +33,7 @@ class Projects extends Component {
                             <Button href="https://conference-planner.herokuapp.com/" target="_blank" colored>Heroku</Button>
                         </CardActions>
                      </Card>,
-                     <Card  shadow={100} style={{width: '470px', height: '530px', textAlign: 'center', margin: 'auto'}}>
+                     <Card  shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', margin: 'auto'}}>
                         <CardTitle expand style={{color: 'white', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3'}}>Tic-Tac-Toe Master</CardTitle>
                         <CardText >
                             This react application allows the user to practice their tic-tac-toe skills whenever they want! they just need to sit down with a friend and see who is the best. You can even go back and checkout out what the board looked at at different stages of the game.
@@ -43,7 +43,7 @@ class Projects extends Component {
                             <Button href="https://arewinkl.github.io/tic-tac-toe-master/" target="_blank" colored>GitHub Pages</Button>
                         </CardActions>
                     </Card>,
-                    <Card  shadow={100} style={{width: '470px', height: '530px', textAlign: 'center', margin: 'auto'}}>
+                    <Card  shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', margin: 'auto'}}>
                         <CardTitle expand style={{color: 'white', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3'}}>Music Master</CardTitle>
                         <CardText >
                             This react application called MusicMaster, is for all those out there who love music and want to stay up to date on the newest & most popular music. You can make playlists of your favorite artists and songs. If you like collecting records you can use the wishlist tab to save albums as a resource when you are out looking to buy more.
@@ -59,7 +59,7 @@ class Projects extends Component {
             return(
                 <div>
                     
-            <Card  shadow={100} style={{width: '475px', height: '530px', textAlign: 'center', margin: 'auto'}}>
+            <Card  shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', margin: 'auto'}}>
                 <CardTitle expand style={{color: '#00000',  background: 'url(https://img.icons8.com/color/452/mongodb.png)center/ cover #D3D3D3'}}>
                     
                     Budget Tracker</CardTitle>
@@ -71,7 +71,7 @@ class Projects extends Component {
                     
                 </CardActions>
             </Card>,
-            <Card  shadow={100} style={{width: '475px', height: '530px', textAlign: 'center', margin: 'auto'}}>
+            <Card  shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', margin: 'auto'}}>
                 <CardTitle expand style={{color: '#00000',  background: 'url(https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png)center/ cover #D3D3D3'}}>
                     
                     Eat-Da-Burger</CardTitle>
@@ -89,7 +89,7 @@ class Projects extends Component {
         }else if (this.state.activeTab === 2){
            return(
            <div>
-                <Card  shadow={100} style={{width: '475px', height: '530px', textAlign: 'center', margin: 'auto'}}>
+                <Card  shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', margin: 'auto'}}>
                 <CardTitle expand style={{color: '#00000',  background: 'url(https://logodix.com/logo/1764882.png) center/ cover #D3D3D3'}}>Couch Surfer Travel Blog</CardTitle>
                 <CardText >
                     This application allows the user to create an account, from there they have the ability to write a blog post on the topic that they choose. When they log in they can see previous blogs, edit posts/ and delete them if they want.
