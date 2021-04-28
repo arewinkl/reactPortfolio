@@ -12,7 +12,7 @@ class Projects extends Component {
         return(
             <div className="apps">
                 
-                    <Card  shadow={100} style={{width: '470px', height: '530px', textAlign: 'center', margin: 'auto'}}>
+                    <Card  shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', margin: 'auto'}}>
                         <CardTitle expand style={{color: 'white', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3'}}>React Employee Directory</CardTitle>
                         <CardText >
                             This react application contains an entire employee directory, and allows you to sort through the directory by employee names to find their contact information.
