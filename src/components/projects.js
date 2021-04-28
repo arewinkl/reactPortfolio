@@ -115,7 +115,7 @@ class Projects extends Component {
            return(
                <div>
 
-            <Card shadow={100} style={{width: '475px', height: '530px',textAlign:'center', margin: 'auto'}}>
+            <Card shadow={100} style={{width: '350px', height: '530px',textAlign:'center', margin: 'auto'}}>
                     <CardTitle expand style={{color: 'black', background: 'url(https://cdn1.vectorstock.com/i/1000x1000/80/95/json-file-document-icon-vector-24678095.jpg) center/ cover #D3D3D3'}}>WeatherMan</CardTitle>
                 <CardText>
                 This application allows the user to check the weather in any city that they wish, all that they need to do is fire it up and type in where they would like to check the weather, and there it is!
@@ -125,7 +125,7 @@ class Projects extends Component {
                 <Button href="https://arewinkl.github.io/NewWeatherApp/" target="_blank" colored>GitHub Pages</Button>
                 </CardActions>
             </Card>,
-            <Card shadow={100} style={{width: '475px', height: '530px',textAlign:'center', margin: 'auto'}}>
+            <Card shadow={100} style={{width: '350px', height: '530px',textAlign:'center', margin: 'auto'}}>
                     <CardTitle expand style={{color: '#00000', background: ' bottom right 15% no-repeat #D3D3D3'}}>Sports-Talk</CardTitle>
                 <CardText>
                 (In Progress) a sports app that would allow the user to search and find news about their favorite sports.
