@@ -22,7 +22,7 @@ class Projects extends Component {
                             <Button href="https://arewinkl.github.io/employee-Directory/" target="_blank" colored>GitHub Pages</Button>
                         </CardActions>
                     </Card>,
-                    <Card  shadow={100} style={{width: '475px', height: '530px', textAlign: 'center', font:'40px', margin: 'auto'}}>
+                    <Card shadow={100} style={{width: '475px', height: '530px', textAlign: 'center', font:'40px', margin: 'auto'}}>
                         <CardTitle  expand style={{color: 'white', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3' }}>
                             Conference Planner</CardTitle>
                         <CardText >
@@ -151,9 +151,11 @@ class Projects extends Component {
 
            <section className="projects-grid">
                <Grid className="projects-grid">
+               
                    <Cell col={12}>
-                    <div className="content">{this.toggleCategories()}</div>
+                   <div className="content">{this.toggleCategories()}</div>
                    </Cell>
+                   
                </Grid>
             
            </section>
