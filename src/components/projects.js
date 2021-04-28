@@ -99,7 +99,7 @@ class Projects extends Component {
                     <Button href="https://dry-scrubland-38194.herokuapp.com/" target="_blank" colored>Heroku</Button>
                 </CardActions>
             </Card>,
-            <Card  shadow={100} style={{width: '475px', height: '530px', textAlign: 'center', margin: 'auto'}}>
+            <Card  shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', margin: 'auto'}}>
                 <CardTitle expand style={{color: '#00000',  background: 'url(https://logodix.com/logo/1764882.png) center/ cover #D3D3D3'}}>Team Builder</CardTitle>
                 <CardText >
                     This application allows the user to operate from the command line & create a Team Homepage HTML file. Once they run node.js they follow the prompts/ answer a few questions and the file is made!
