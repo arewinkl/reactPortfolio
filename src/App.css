@@ -301,3 +301,7 @@
   height: 1150px;
   width: 1100px;
 }
+
+.bottom-text a {
+  color: white;
+}
