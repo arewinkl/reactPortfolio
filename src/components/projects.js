@@ -118,7 +118,7 @@ class Projects extends Component {
             <Card shadow={100} style={{width: '350px', height: '530px',textAlign:'center', margin: 'auto'}}>
                     <CardTitle expand style={{color: 'black', background: 'url(https://cdn1.vectorstock.com/i/1000x1000/80/95/json-file-document-icon-vector-24678095.jpg) center/ cover #D3D3D3'}}>WeatherMan</CardTitle>
                 <CardText>
-                This application allows the user to check the weather in any city that they wish, all that they need to do is fire it up and type in where they would like to check the weather, and there it is!
+                "IN PROGRESS" This application allows the user to check the weather in any city that they wish, all that they need to do is fire it up and type in where they would like to check the weather, and there it is!
                 </CardText>
                 <CardActions border>
                 <Button href="https://github.com/arewinkl/NewWeatherApp" target="_blank" colored>GitHub</Button>
